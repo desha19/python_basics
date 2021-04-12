@@ -1,0 +1,5 @@
+number = int(input('Введите целое число: '))
+s = str(number)
+ls = list(map(int, s))
+r = max(ls)
+print(r)
